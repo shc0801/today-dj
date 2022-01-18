@@ -1,7 +1,5 @@
 # today-dj
 
-http://test.itsw.info/1/
-
 > 오늘의 동재는?
 
 ## 📌 프로젝트 소개
