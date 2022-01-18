@@ -11,18 +11,12 @@ module.exports = {
   ],
   plugins: ['prettier', '@typescript-eslint'],
   rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        singleQuote: true,
-        semi: true,
-        useTabs: false,
-        tabWidth: 2,
-        printWidth: 80,
-        bracketSpacing: true,
-        arrowParens: 'avoid',
-      },
-    ],
+    'linebreak-style': 0,
+    'import/prefer-default-export': 0,
+    'prettier/prettier': 0,
+    'import/extensions': 0,
+    'no-use-before-define': 0,
+    'import/no-unresolved': 0,
   },
   parserOptions: {
     parser: '@typescript-eslint/parser',
