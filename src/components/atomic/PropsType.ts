@@ -5,4 +5,8 @@ export default interface PropsType {
   fSize?: string;
   fWeight: string;
   margin?: string;
+  backgroundColor?: string;
+  border?: string;
+  position?: string;
+  zIndex?: string;
 }
